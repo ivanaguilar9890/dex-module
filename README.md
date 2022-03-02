@@ -2,7 +2,7 @@
 
 **IMPORTANT**: If you want to run the file I'd recommend two things. First is that you use Google Colab instead of Jupyter Notebook. Reason for that is we are working with up to 100K's rows of data. So if you attempt to make the function calls locally, you might run out of memory which is not an issue in Google Colab. The second is that due to the popularity of Bitquery in the DEX-space, Bitquery's servers run slow so I'd recommend to use the module in non-peak hours ~ usually after 9 pm PST.
 
-**IMPORTANT**: Bitquery changed their API a bit and while the module still works I'm not sure to what extent that will remain true.
+**IMPORTANT**: Bitquery changed their API a bit and while the module seemed to work, I'm not sure to what extent that will remain true. Remember to include your own Bitquery and Covalent API Keys.
 
 ```python
 # File with all the helper functions. Since we are using google colab, file 
